@@ -1,0 +1,2 @@
+# huozige_bp_data_exchange
+用页面容器，将多个页面组合为一个复杂页面并实现值传递

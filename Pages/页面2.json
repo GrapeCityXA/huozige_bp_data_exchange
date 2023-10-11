@@ -1,0 +1,258 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 10,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "Count": 15
+  },
+  "Values": {
+    "1,1": "hello",
+    "1,12": "→",
+    "3,1": "在这个子页面上，先输入一些内容",
+    "4,1": "点击【→】传递到另一个子页面"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "hello"
+      }
+    },
+    "1,12": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面2!p3_1"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面2!p2_1"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "→",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "Formatter": 1
+      },
+      {
+        "Background": 0,
+        "FontFamily": 2,
+        "Foreground": 3
+      },
+      {
+        "Background": 4,
+        "FontFamily": 2
+      },
+      {
+        "Background": 4,
+        "FontFamily": 2,
+        "Formatter": 5
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 0",
+        "@",
+        "Body",
+        "#FFFF0000",
+        "Accent 2 80",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,12": 1,
+      "1,13": 2,
+      "3,1": 2,
+      "3,2": 2,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "3,13": 2,
+      "4,1": 3,
+      "4,2": 2,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,8": 2,
+      "4,9": 2,
+      "4,10": 2,
+      "4,11": 2,
+      "4,12": 2,
+      "4,13": 2,
+      "5,2": 2,
+      "5,3": 2,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,8": 2,
+      "5,9": 2,
+      "5,10": 2,
+      "5,11": 2,
+      "5,12": 2,
+      "5,13": 2,
+      "6,1": 2,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 2,
+      "6,7": 2,
+      "6,8": 2,
+      "6,9": 2,
+      "6,10": 2,
+      "6,11": 2,
+      "6,12": 2,
+      "6,13": 2,
+      "7,1": 2,
+      "7,2": 2,
+      "7,3": 2,
+      "7,4": 2,
+      "7,5": 2,
+      "7,6": 2,
+      "7,7": 2,
+      "7,8": 2,
+      "7,9": 2,
+      "7,10": 2,
+      "7,11": 2,
+      "7,12": 2,
+      "7,13": 2,
+      "8,1": 2,
+      "8,2": 2,
+      "8,3": 2,
+      "8,4": 2,
+      "8,5": 2,
+      "8,6": 2,
+      "8,7": 2,
+      "8,8": 2,
+      "8,9": 2,
+      "8,10": 2,
+      "8,11": 2,
+      "8,12": 2,
+      "8,13": 2,
+      "9,1": 2,
+      "9,2": 2,
+      "9,3": 2,
+      "9,4": 2,
+      "9,5": 2,
+      "9,6": 2,
+      "9,7": 2,
+      "9,8": 2,
+      "9,9": 2,
+      "9,10": 2,
+      "9,11": 2,
+      "9,12": 2,
+      "9,13": 2
+    },
+    "SheetStyle": {
+      "Background": 4,
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "1,12,1,2",
+    "1,1,1,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "p2_1",
+      "Formula": "页面2!$B$2"
+    }
+  ]
+}//zX24Z/4woXAF3zMCUig9TXq6EEFdlcQVtFrWrNg7ZYArEgkQwtIp2Dp25ZYHJhh/G2LiNHH4SvybmEAaVaBKSG/xML4ORkSBtPYwqBqaeJM1rlBC0oIRyMAcM5p4k9+bjXP3aRxtW4rypW/iBNOqjUYMewaatHNJL7RitwLls2DF7Gxtz5Md3PuDkL2NFRKyf0fH6wgZXsEZZI1n44eDSOiAq7fKO5rRips+2oGySkDTB02A6eCBRJyuLaLz6liXcluraYTSE01s1p6Sb8QROJ2wEhsFQMPj40CUujIWCqQDvz0CB87V2cOBMedF5iZso62s8YlaV6FCg3OvD7YqjJn0IisdRKjNd4udsip+8qWICA0sgArqDJ3a7NTvnepKwa9VkDGaCSUPxgbEhv+sHdn9mc6FB17XA0H1hzzlXvCRdoBTP4BO+Wq+AMLvZmahkFnJRUx2tL7U9FGF5u/8WqFHsqBNovHwbJGGiADnsv+eKAPP1TDFL6TeXjSaHeUl/OYtPNsx51WoPrGHW00gXwC6mhW+8jCpxLVQ/CNA2IvdcU21tQ62NIGlAPXjWKNH5dB3QL0yuKv14jHNikP8ASRQrjJJ/ptfj89W7HT2V9VFwgiaQGEmPEFV9ZzfG5VEzZngUCbJlghZWixHPllfJdi5tDfx/0bl3DQwv7DHZGj6Dxt64R67fbZlxjO17i8HzQmkazweu7dXY0DnEp4/55AgAEQgT/Oxgbzv6ofCChdnMdPY3zMOuRLmCKVbaAxZJo8VnzahjafA2kBM+uh/bO7rmOEiTqACWl88V9vhLBUGJ3nRrb35f4c0goFufudJkV7za0hueOuD/C/BMku/cBsHJZRHxsTVC6LVmYMnduK5nuKc6G0vOfAVdC/AsjSEA0mKxPsi3nsCL4zN/fvnSw==|920

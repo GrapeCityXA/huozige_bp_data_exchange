@@ -1,0 +1,118 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 10,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "Count": 15
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 0",
+        "@",
+        "Accent 3 80",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0
+    },
+    "SheetStyle": {
+      "Background": 2,
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "1,1,1,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "p3_1",
+      "Formula": "页面3!$B$2:$N$2"
+    }
+  ]
+}//JmED2JHgHfKNcOBM7h4vgiCF8CCJu/CL6ZXCSqGjYIsKUcktmGmA9oOrCjLuOlc8yn2p9QIAbqpMRvFVtgM+TZQ+ZxhWdyc/GdFhULTo4T29nHE8vrDgvYibHjQEjxKAonUUjGYe4pw0dVLBf7WTxF27pBRKPbTvu+HS88EbeqyZuvhfTOKBnv42z4ZzgebHHRDxImY2+1nF9O8+JJxh+HnTblhRWS3cK5H+kiiWLrogd2XK2hgMGCcpn5bmWVH+vNzOnk6IurS/Dy/aAJvMxWWdtlyvrMnTZ5WrmM67UHnrSh+hCogLPmEIaqDdkWzg0xHHbubVXhgdw5rDuo8wIYFMcjDs6kK8NGq9y4Vdu3H50XuXjG5RcuuEsKDq12YeH/IvAH2TMjAw2AfVgOS+T8Qoneog8p2jmZU5XBR68X16M1YhrI/U2ms1W/bsdKi7kKMuE81wEWg6Zql2VFPOSI4nlnPrsDlhHYlPsbxu4rRE425zWhMClgTAB4HJrbNwUUJJodqlIQ/TV+2aRDoR6ROSclfSVm71cw8VC4t94LkDcMykai3uAhV1rAzHKBTyxeYYWVFiHEQ4Bwf42q1D90Zq5lfjUWhqJ66DdfMIyzZVL4N4NDKJFz+vE3FP+O8Oqi8rkQFoxYr7xYks9h4O2j21lPzzyZvSCX+SP6tVespQ+jFl6xtrRQzBG89ni9cVXcET67QmMwIRdlffou+R4/ENxAS3+kJXhS2CREt66XmgkirxbkMWi4WP0ixsgmAGkrfjidhgTBe/RjYDmtCNPg3BHSABZTlYxRArOMbOBvtwvJbFOLR/AXoz5RcWkIG3PpoKBV3wJKnc/19uX1SRzMYx/iJdWn1ZxuszrNXgUoyn4xPXPeOK1FMUI+50ur0tvOXxUoccREuK1KLQ9mpPdw==|920

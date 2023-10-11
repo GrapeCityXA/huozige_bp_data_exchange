@@ -1,0 +1,9 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "EYCI@w8djM35"
+  },
+  "WebSitePort": 60600,
+  "UserServicePort": 18182,
+  "StartPage": "页面1",
+  "StartDateFiscalYear": 1
+}
